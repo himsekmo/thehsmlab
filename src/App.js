@@ -22,7 +22,7 @@ export default function App() {
         >
           <h1 className="gradient-text">AI</h1>
           <p className="tagline">
-            Turning vision into value through intelligent automation. By designing AI-driven workflows that scale, we help businesses reduce costs, improve accuracy, and unlock insights from data. Whether it's predictive analytics or language intelligence, we make AI approachable and impactful.
+            Transforming ideas into intelligent, scalable AI solutions - empowering innovation through thoughtful design, data driven insights, and future ready architecture. Whether it's predictive analytics or language intelligence, we make AI approachable and impactful.
           </p>
         </motion.section>
 
