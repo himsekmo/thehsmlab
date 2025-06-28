@@ -1,18 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import { motion } from "framer-motion";
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
-    <div className={`container ${darkMode ? "dark" : "light"}`}>
-      <div className="theme-toggle">
-        <button onClick={() => setDarkMode(!darkMode)}>
-          {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
-        </button>
-      </div>
-
+    <div className="container">
       <main className="main">
         <motion.section 
           className="section about"
@@ -20,7 +12,7 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 0.6 }}
         >
-          <h1 className="gradient-text">AI</h1>
+          <h1 className="gradient-text">AI Developer Portfolio</h1>
           <p className="tagline">
             Transforming ideas into intelligent, scalable AI solutions.
           </p>
@@ -59,12 +51,12 @@ export default function App() {
           transition={{ duration: 0.6, delay: 0.1 }}
         >
           <h2 className="section-title">📬 Let's Connect</h2>
-          <p className="contact-text">Email me at <a href="mailto:youremail@example.com">himsekmo@gmail.com</a></p>
+          <p className="contact-text">Email me at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
         </motion.section>
       </main>
 
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Passionate AI Developer</p>
+        <p>© {new Date().getFullYear()} Passion AI Developer</p>
       </footer>
     </div>
   );
