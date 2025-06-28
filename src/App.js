@@ -22,7 +22,7 @@ export default function App() {
         >
           <h1 className="gradient-text">AI</h1>
           <p className="tagline">
-            Transforming ideas into intelligent, scalable AI solutions — empowering innovation through thoughtful design, data-driven insights, and future-ready architecture.
+            Turning vision into value through intelligent automation. By designing AI-driven workflows that scale, we help businesses reduce costs, improve accuracy, and unlock insights from data. Whether it's predictive analytics or language intelligence, we make AI approachable and impactful.
           </p>
         </motion.section>
 
@@ -58,8 +58,10 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          <h2 className="section-title">📬 Let's Connect</h2>
-          <p className="contact-text">Email me at <a href="mailto:youremail@example.com">himsekmo@gmail.com</a></p>
+          <h2 className="section-title">Got Ideas or Feedback?
+Whether it's an innovative spark, a fresh perspective, or a tiny tweak you'd love to see — I’d really value your thoughts.
+</h2>
+          <p className="contact-text">📬 Reach out anytime at <a href="mailto:himsekmo@gmail.com">himsekmo@gmail.com</a></p>
         </motion.section>
       </main>
 
