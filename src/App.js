@@ -22,7 +22,7 @@ export default function App() {
         >
           <h1 className="gradient-text">AI</h1>
           <p className="tagline">
-            Transforming ideas into intelligent, scalable AI solutions.
+            Transforming ideas into intelligent, scalable AI solutions — empowering innovation through thoughtful design, data-driven insights, and future-ready architecture.
           </p>
         </motion.section>
 
