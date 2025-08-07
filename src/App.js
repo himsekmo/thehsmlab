@@ -106,7 +106,7 @@ export default function App() {
 >
   <p className="card-description">
    <i> Got Ideas or Feedback? Whether it's an innovative spark, a fresh perspective, or a tiny tweak you'd love to see — I’d really value your thoughts.
-    <br />📬 Reach out at{" "} <a href="mailto:Support@thehsmlab.com">feedback@thehsmlab.com</a>
+    <br />📬 Reach out at{" "} <a href="mailto:Support@thehsmlab.com">Support@thehsmlab.com</a>
  </i> </p>
 </motion.section>
 
